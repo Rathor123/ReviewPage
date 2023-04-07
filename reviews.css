@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.reviewBox {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    height: 70vh;
+    width: 60vw;
+    background-color: whitesmoke;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 20px;
+    position: sticky;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.img img {
+    margin: 20px;
+    border-radius: 100px;
+    border-right: #009aee 10px solid;
+    /* border-top: blue 10px solid;
+    border-right: blue 10px solid; */
+    width:150px;
+    height: 150px;
+}
+
+.full {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: rgb(14, 13, 13);
+
+}
+
+.profession {
+    color: #009aee;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-weight: 800;
+}
+
+.aboutMe {
+    font-weight: 400;
+    text-align: center;
+    color: gray;
+}
+
+.arrow {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    font-weight: 800;
+    font-size: 15px;
+    color: #009aee;
+    cursor: pointer;
+    /* position: fixed; */
+}
+
+button {
+    font-size: 15px;
+    padding: 5px;
+    color: #009aee;
+    border-radius: 10px;
+    border: #009aee solid 2px;
+    border-right: blue solid 2px;
+    border-bottom: blue solid 2px;
+}
